@@ -502,8 +502,6 @@ Gem::Specification.new do |s|
   s.files += %w( src/core/ext/upb-generated/udpa/annotations/status.upb.h )
   s.files += %w( src/core/ext/upb-generated/udpa/annotations/versioning.upb.c )
   s.files += %w( src/core/ext/upb-generated/udpa/annotations/versioning.upb.h )
-  s.files += %w( src/core/ext/upb-generated/udpa/data/orca/v1/orca_load_report.upb.c )
-  s.files += %w( src/core/ext/upb-generated/udpa/data/orca/v1/orca_load_report.upb.h )
   s.files += %w( src/core/ext/upb-generated/udpa/type/v1/typed_struct.upb.c )
   s.files += %w( src/core/ext/upb-generated/udpa/type/v1/typed_struct.upb.h )
   s.files += %w( src/core/ext/upb-generated/validate/validate.upb.c )

@@ -222,7 +222,6 @@ CORE_SOURCE_FILES = [
     'src/core/ext/upb-generated/udpa/annotations/sensitive.upb.c',
     'src/core/ext/upb-generated/udpa/annotations/status.upb.c',
     'src/core/ext/upb-generated/udpa/annotations/versioning.upb.c',
-    'src/core/ext/upb-generated/udpa/data/orca/v1/orca_load_report.upb.c',
     'src/core/ext/upb-generated/udpa/type/v1/typed_struct.upb.c',
     'src/core/ext/upb-generated/validate/validate.upb.c',
     'src/core/ext/upb-generated/xds/core/v3/authority.upb.c',

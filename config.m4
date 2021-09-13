@@ -247,7 +247,6 @@ if test "$PHP_GRPC" != "no"; then
     src/core/ext/upb-generated/udpa/annotations/sensitive.upb.c \
     src/core/ext/upb-generated/udpa/annotations/status.upb.c \
     src/core/ext/upb-generated/udpa/annotations/versioning.upb.c \
-    src/core/ext/upb-generated/udpa/data/orca/v1/orca_load_report.upb.c \
     src/core/ext/upb-generated/udpa/type/v1/typed_struct.upb.c \
     src/core/ext/upb-generated/validate/validate.upb.c \
     src/core/ext/upb-generated/xds/core/v3/authority.upb.c \
@@ -1134,7 +1133,6 @@ if test "$PHP_GRPC" != "no"; then
   PHP_ADD_BUILD_DIR($ext_builddir/src/core/ext/upb-generated/src/proto/grpc/health/v1)
   PHP_ADD_BUILD_DIR($ext_builddir/src/core/ext/upb-generated/src/proto/grpc/lb/v1)
   PHP_ADD_BUILD_DIR($ext_builddir/src/core/ext/upb-generated/udpa/annotations)
-  PHP_ADD_BUILD_DIR($ext_builddir/src/core/ext/upb-generated/udpa/data/orca/v1)
   PHP_ADD_BUILD_DIR($ext_builddir/src/core/ext/upb-generated/udpa/type/v1)
   PHP_ADD_BUILD_DIR($ext_builddir/src/core/ext/upb-generated/validate)
   PHP_ADD_BUILD_DIR($ext_builddir/src/core/ext/upb-generated/xds/core/v3)

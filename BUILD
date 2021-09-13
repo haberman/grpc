@@ -4202,9 +4202,9 @@ grpc_cc_library(
 )
 
 grpc_upb_proto_library(
-     name = "udpa_orca_upb",
-     deps = ["@udpa//udpa/data/orca/v1:pkg"]
- )
+    name = "udpa_orca_upb",
+    deps = ["@udpa//udpa/data/orca/v1:pkg"],
+)
 
 #grpc_cc_library(
 #    name = "udpa_orca_upb",

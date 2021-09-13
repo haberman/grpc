@@ -1752,7 +1752,6 @@ add_library(grpc
   src/core/ext/upb-generated/udpa/annotations/sensitive.upb.c
   src/core/ext/upb-generated/udpa/annotations/status.upb.c
   src/core/ext/upb-generated/udpa/annotations/versioning.upb.c
-  src/core/ext/upb-generated/udpa/data/orca/v1/orca_load_report.upb.c
   src/core/ext/upb-generated/udpa/type/v1/typed_struct.upb.c
   src/core/ext/upb-generated/validate/validate.upb.c
   src/core/ext/upb-generated/xds/core/v3/authority.upb.c
@@ -2499,8 +2498,6 @@ add_library(grpc_unsecure
   src/core/ext/transport/inproc/inproc_transport.cc
   src/core/ext/upb-generated/src/proto/grpc/health/v1/health.upb.c
   src/core/ext/upb-generated/src/proto/grpc/lb/v1/load_balancer.upb.c
-  src/core/ext/upb-generated/udpa/data/orca/v1/orca_load_report.upb.c
-  src/core/ext/upb-generated/validate/validate.upb.c
   src/core/lib/address_utils/parse_address.cc
   src/core/lib/address_utils/sockaddr_utils.cc
   src/core/lib/avl/avl.cc
