@@ -1909,6 +1909,16 @@ grpc_cc_library(
     ],
 )
 
+grpc_upb_proto_library(
+    name = "timestamp_upb_proto",
+    deps = ["@com_google_protobuf//:timestamp_proto"],
+)
+
+grpc_upb_proto_library(
+    name = "duration_upb_proto",
+    deps = ["@com_google_protobuf//:duration_proto"],
+)
+
 grpc_cc_library(
     name = "grpc_lb_policy_grpclb",
     srcs = [
@@ -1934,6 +1944,8 @@ grpc_cc_library(
     ],
     language = "c++",
     deps = [
+        ":timestamp_upb_proto",
+        ":duration_upb_proto",
         "google_api_upb",
         "gpr_base",
         "grpc_base_c",
